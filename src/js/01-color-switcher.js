@@ -22,8 +22,7 @@ function onClickStartColor() {
     refs.btnStopEl.disabled = false;
    
     timerID = setInterval(() =>{
-        colorRandom = getRandomHexColor();
-        refs.bodyEl.style.background = colorRandom;
+        refs.bodyEl.style.background = getRandomHexColor();
         
     },1000);
 }
