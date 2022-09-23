@@ -16,13 +16,28 @@ img {
   display: block;
   max-width: 100%;
 }
-.label {
-  display: none;
+.timer {
+  
+  display: flex;
+  
 }
 
-.timer {
+.value {
+  
+  font-size: 48px;
+  font-weight: 460;
+  margin-right: 20px;
+  padding: 0px;
+}
+
+.label {
+  display: none;
   display: flex;
-  color: rgb(18, 170, 71);
-  font-weight: 600;
-  font-size: 50px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  padding-right: 20px;
+  padding-left: 5px;
+  padding-top: 0px;
+  text-align:  center;
 }
